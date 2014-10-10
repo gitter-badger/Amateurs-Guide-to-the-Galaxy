@@ -1,25 +1,23 @@
-Amateurs-Guide-to-the-Galaxy
-============================
+CS 31A
+FALL 2014
+PC-DBA PROPOSAL
+9 OCTOBER 2014
 
-### CS 31A PC-DBA Project
+AMATEUR’S GUIDE TO THE GALAXY
+→ TEAM: Robert Mitchell, Anna Chang, Christopher Dunleavy
 
-* _TEAM_: Robert Mitchell, Anna Chang, Christopher Dunleavy
-
-### Description:
-
-* The database will allow users to query the data for nearby stars of high
+Description:
+→ The database will allow users to query the data for nearby stars of high
 brightness that they could then observe with their telescope (nearby = within
 50 parsecs, and bright = magnitude higher than +9.0).
 
-### Data Source:
-
-* https://github.com/astronexus/HYG-Database
-
-Since cosmological data is so complex, it would require more domain knowledge
+Data Source:
+	>https://github.com/astronexus/HYG-Database
+→ Since cosmological data is so complex, it would require more domain knowledge
 for our group to handle, which is why we chose a dataset that an amateur could
-navigate without sacrificing a robust set of interesting attributes to query.  
+navigate without sacrificing a robust set of interesting attributes to query.
 Since tabular data is best suited for setting up a database, we decided to
-search for catalogs that are not too overwhelming in scope.  
+search for catalogs that are not too overwhelming in scope.
 
 The above referenced dataset combines three major catalogs: the Hipparcos
 Catalog, the Yale Bright Star Catalog (5th ed.), and the Gliese Catalog of
@@ -38,12 +36,11 @@ perform queries.
 An exciting feature of the dataset is geospatial/coordinate fields, which we
 may be able to use for visualization.  There are two fields that contain
 location-based data in two specific formats:
-
-* X,Y,Z:
-* VX,VY,VZ
+	>X,Y,Z:
+	>VX,VY,VZ
 
 Another exciting feature is the possibility of using SQL and the database in
-conjunction with other kinds of analysis and visualization tools.  
+conjunction with other kinds of analysis and visualization tools.
 
 Next steps require specification through the diagramming of our entity
 relationships.
